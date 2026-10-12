@@ -1,6 +1,6 @@
 (defsystem "rplaca"
   :description "A Lisp-native Emacs-inspired LLM chat interface"
-  :homepage "https://github.com/htayj/rplaca"
+  :homepage "https://github.com/htayj/first-rplaca"
   :version "0.1.0"
   :licence "AGPL-3.0-only"
   :depends-on ("lispi" "mcclim" "clim-listener" "clim-debugger" "esa-mcclim" "drei-mcclim"

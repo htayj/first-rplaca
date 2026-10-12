@@ -1,11 +1,20 @@
-#+TITLE: RPLACA
+#+TITLE: first-rplaca
 #+STARTUP: overview
 
-*WARNING: This project is pre-dogfood and under active development.*
+*WARNING: This preserved first attempt is pre-dogfood.*
+
+=first-rplaca= preserves the first RPLACA attempt and its history. See the
+[[file:docs/POSTMORTEM.md][postmortem draft]] for the lessons from this attempt.
+
+This is a repository-only rename: the RPLACA product, launch commands, ASDF
+systems, Lisp packages, and configuration names remain unchanged. The earlier
+product migration guide remains historical; it is not a migration to
+=first-rplaca= runtime names.
 
 Macros for your agent!
 
-Repository: [[https://github.com/htayj/rplaca][github.com/htayj/rplaca]]
+Canonical repository: [[https://forge.nogroup.group/tay/first-rplaca][forge.nogroup.group/tay/first-rplaca]]
+GitHub: [[https://github.com/htayj/first-rplaca][github.com/htayj/first-rplaca]]
 
 Users of pre-rename builds should follow the
 [[file:docs/MIGRATING-FROM-CLAWMACS.md][Clawmacs-to-RPLACA migration guide]]

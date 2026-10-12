@@ -4,6 +4,10 @@ This guide covers the pre-alpha product rename from Clawmacs to RPLACA. The
 compatibility boundary is deliberately narrow: it preserves inert data and
 complete session history without silently executing old configuration.
 
+The later repository-only rename to `first-rplaca` preserves this historical
+product migration. It does not rename the RPLACA runtime, launch commands,
+ASDF systems, Lisp packages, environment variables, or configuration paths.
+
 Read this guide before moving or deleting anything. Keep the old directories
 until RPLACA has started, the expected sessions and settings are visible, and a
 new canonical write has been verified.
@@ -15,7 +19,8 @@ RPLACA does not provide aliases for the old program identity.
 | Surface | Canonical identity |
 |---|---|
 | Product and window title | `RPLACA` |
-| Future repository URL | `https://github.com/htayj/rplaca` |
+| Current canonical repository | `https://forge.nogroup.group/tay/first-rplaca` |
+| Current GitHub repository | `https://github.com/htayj/first-rplaca` |
 | ASDF systems | `rplaca`, `rplaca/tests`, `rplaca/gui-e2e` |
 | Common Lisp packages | `RPLACA`, `RPLACA/MATCHING-CORE`, `RPLACA/TESTS` |
 | User configuration package prefix | `rplaca:` |

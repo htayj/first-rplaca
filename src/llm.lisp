@@ -4631,7 +4631,7 @@ Uses the OpenAI-compatible chat completions protocol."
             :method :post
             :content-type "application/json"
             :additional-headers `(("Authorization" . ,(format nil "Bearer ~A" token))
-                                  ("HTTP-Referer" . "https://github.com/htayj/rplaca")
+                                  ("HTTP-Referer" . "https://github.com/htayj/first-rplaca")
                                   ("X-Title" . "RPLACA"))
             :content request-body
             :want-stream nil
@@ -4698,7 +4698,7 @@ Uses the OpenAI-compatible chat completions protocol."
                    `(("Authorization"
                       . ,(format nil "Bearer ~A" token))
                      ("HTTP-Referer"
-                      . "https://github.com/htayj/rplaca")
+                      . "https://github.com/htayj/first-rplaca")
                      ("X-Title" . "RPLACA"))
                    :content request-body
                    :want-stream t
